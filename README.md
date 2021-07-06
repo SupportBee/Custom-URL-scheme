@@ -2,13 +2,13 @@
 
 Launch your app by a link like this: `mycoolapp://`
 
-Supports up to 8 scheme.
+Supports up to 9 scheme.
 
 ## 1. Description
 
 This plugin allows you to start your app by calling it with a URL like `mycoolapp://path?foo=bar`
 
-* Supports up to 8 scheme
+* Supports up to 9 scheme
 * Compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman)
 
 ### iOS specifics
@@ -31,12 +31,12 @@ Replace `mycoolapp` by a nice scheme you want to have your app listen to:
 
 Latest release on npm:
 ```
-$ cordova plugin add cordova-plugin-customurlscheme-ng --variable URL_SCHEME=mycoolapp SECOND_URL_SCHEME=othercoolapp THIRD_URL_SCHEME=supercoolapp FOURTH_URL_SCHEME=amazingcoolapp FIFTH_URL_SCHEME=amazingcoolapptwo SIXTH_URL_SCHEME=amazingcoolappthree SEVENTH_URL_SCHEME=amazingcoolappseven EIGHTH_URL_SCHEME=amazingcoolappeight
+$ cordova plugin add cordova-plugin-customurlscheme-ng --variable URL_SCHEME=mycoolapp SECOND_URL_SCHEME=othercoolapp THIRD_URL_SCHEME=supercoolapp FOURTH_URL_SCHEME=amazingcoolapp FIFTH_URL_SCHEME=amazingcoolapptwo SIXTH_URL_SCHEME=amazingcoolappthree SEVENTH_URL_SCHEME=amazingcoolappseven EIGHTH_URL_SCHEME=amazingcoolappeight NINTH_URL_SCHEME=amazingcoolappnine
 ```
 
 Bleeding edge master version from Github:
 ```
-$ cordova plugin add https://github.com/cmgustavo/Custom-URL-scheme.git --variable URL_SCHEME=mycoolapp SECOND_URL_SCHEME=othercoolapp THIRD_URL_SCHEME=supercoolapp FOURTH_URL_SCHEME=amazingcoolapp FIFTH_URL_SCHEME=amazingcoolapptwo SIXTH_URL_SCHEME=amazingcoolappthree SEVENTH_URL_SCHEME=amazingcoolappseven EIGHTH_URL_SCHEME=amazingcoolappeight
+$ cordova plugin add https://github.com/cmgustavo/Custom-URL-scheme.git --variable URL_SCHEME=mycoolapp SECOND_URL_SCHEME=othercoolapp THIRD_URL_SCHEME=supercoolapp FOURTH_URL_SCHEME=amazingcoolapp FIFTH_URL_SCHEME=amazingcoolapptwo SIXTH_URL_SCHEME=amazingcoolappthree SEVENTH_URL_SCHEME=amazingcoolappseven EIGHTH_URL_SCHEME=amazingcoolappeight NINTH_URL_SCHEME=amazingcoolappnine
 ```
 (Note that the Phonegap CLI didn't support `--variable` before version 3.6.3, so please use the Cordova CLI as shown above in case you're on an older version)
 
