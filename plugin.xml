@@ -23,14 +23,14 @@
   <issue>https://github.com/cmgustavo/Custom-URL-scheme/issues</issue>
 
   <preference name="URL_SCHEME" />
-  <preference name="SECOND_URL_SCHEME" />
-  <preference name="THIRD_URL_SCHEME" />
-  <preference name="FOURTH_URL_SCHEME" />
-  <preference name="FIFTH_URL_SCHEME" />
-  <preference name="SIXTH_URL_SCHEME" />
-  <preference name="SEVENTH_URL_SCHEME" />
-  <preference name="EIGHTH_URL_SCHEME" />
-  <preference name="NINTH_URL_SCHEME" />
+  <preference name="SECOND_URL_SCHEME" default="" />
+  <preference name="THIRD_URL_SCHEME" default="" />
+  <preference name="FOURTH_URL_SCHEME" default="" />
+  <preference name="FIFTH_URL_SCHEME" default="" />
+  <preference name="SIXTH_URL_SCHEME" default="" />
+  <preference name="SEVENTH_URL_SCHEME" default="" />
+  <preference name="EIGHTH_URL_SCHEME" default="" />
+  <preference name="NINTH_URL_SCHEME" default="" />
 
   <engines>
     <engine name="cordova" version=">=7.1.0"/>
